@@ -1,0 +1,10 @@
+require 'sinatra'
+
+# our application's routes
+	get '/hi' do
+		"Hi, I am Frank!"
+	end
+
+	get '/quote' do
+		"the best is yet to come and won't that be fine."
+	end
